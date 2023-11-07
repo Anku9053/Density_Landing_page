@@ -1,0 +1,46 @@
+.trade-more-first-main-div{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    border: 2px solid yellow;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.trade-more-second-main-div{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    /* color: black; */
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.trade-more-para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    letter-spacing: -2.1px;
+    /* line-height: 76.88px;/ */
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.trade-more-span{
+    color: #ebff25;
+}
+
+.trade-more-para-small{
+    position: relative;
+    bottom: 4rem;
+    font-family: "Neurial Grotesk", sans-serif;
+    line-height: 32.85px;
+    text-align: center;
+    color: rgb(231, 231, 234);
+    font-size: 24px;
+}

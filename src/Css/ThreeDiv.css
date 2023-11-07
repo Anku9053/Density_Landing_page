@@ -1,0 +1,12 @@
+/* Existing CSS styles */
+
+.scatter-dot {
+    position: absolute;
+    width: 10px; /* Adjust the size of the square dots */
+    height: 10px; /* Adjust the size of the square dots */
+    background-color: red; /* Dot color */
+    border-radius: 0;
+    left: calc(10% * var(--random-x)); /* Adjust the dot position */
+    top: calc(10% * var(--random-y)); /* Adjust the dot position */
+  }
+  

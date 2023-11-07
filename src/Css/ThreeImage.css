@@ -1,0 +1,53 @@
+.main-div-container {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .image-container-three-images {
+    display: flex;
+    width: 60%;
+    perspective: 1200px;
+  }
+  
+  .image {
+    flex: 1;
+    overflow: hidden;
+    background-color: black;
+    transform-style: preserve-3d;
+  }
+  
+  .first-image {
+    width: 100%;
+    position: relative;
+    left: 40px;
+    border: 1px solid white;
+    border-radius: 40px;
+    transform: scale(0.8);
+  }
+  
+  .second-image {
+    border: 1px solid white;
+    border-radius: 40px;
+    width: 100%;
+    transform: translateZ(0);
+  }
+  
+  .third-image {
+    border: 1px solid white;
+    border-radius: 40px;
+    width: 100%;
+    transform: scale(0.8);
+    position: relative;
+    right: 40px;
+    z-index: -1;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  

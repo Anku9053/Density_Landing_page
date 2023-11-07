@@ -1,7 +1,17 @@
 import React from 'react';
-import styled from 'styled-components';
 import DensityImage from '../images/DensityImage.svg';
 import Trade from './Trade';
+import styled, { keyframes } from 'styled-components';
+
+
+const glow = keyframes`
+  0% {
+    box-shadow: 0 0 5px rgba(255, 255, 0, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 20px rgba(255, 255, 0, 0.8);
+  }
+`;
 
 const NavLeft = styled.div`
   width: 100%;
@@ -144,7 +154,7 @@ const AnchButton = styled.a`
   white-space: nowrap;
   &:hover {
     background: linear-gradient(85.8452deg, rgb(255, 255, 0) 29.1667%, rgb(76, 255, 128) 100%);
-    animation: glow 1s infinite alternate;
+    animation: ${glow} 1s infinite alternate;
   }
 `;
 

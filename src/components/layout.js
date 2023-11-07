@@ -8,6 +8,8 @@ import TradersDesc from '../pages/TradersDesc';
 import WhyDensity from '../pages/WhyDensity';
 import TradeMorePayLess from '../pages/TradeMorePayLess';
 import ThreeDiv from '../pages/ThreeDiv';
+import Explore from '../pages/Explore';
+import NewFrontiers from '../pages/NewFrontiers';
 
 const Layout = ({ children }) => {
   return (
@@ -19,7 +21,9 @@ const Layout = ({ children }) => {
       <TradersDesc/>
       <WhyDensity/>
       <TradeMorePayLess/>
-      <ThreeDiv/>
+      {/* <ThreeDiv/> */}
+      <Explore/>
+      <NewFrontiers/>
     </div>
   );
 };

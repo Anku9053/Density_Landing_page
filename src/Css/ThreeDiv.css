@@ -1,12 +1,97 @@
-/* Existing CSS styles */
+.Three-div-first-main-div {
+  width: 100%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
 
-.scatter-dot {
-    position: absolute;
-    width: 10px; 
-    height: 10px; 
-    background-color: red; 
-    border-radius: 0;
-    left: calc(10% * var(--random-x)); 
-    top: calc(10% * var(--random-y)); 
-  }
-  
+.Three-Div-second-main-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 16px;
+  justify-content: center;
+  overflow: visible;
+  padding: 0;
+  position: relative;
+  width: 80%;
+}
+
+.Three-Div-Main-image-para-container {
+  width: 75%;
+  border: 2px solid white;
+  border-radius: 8px;
+  height: 438px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.three-div-image-container > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  object-fit: cover;
+  image-rendering: auto;
+}
+.three-div-image-container{
+  width: 50%;
+}
+/* Stationary square dots */
+.three-div-image-container::before {
+  content: '';
+  position: absolute;
+  background-color: #FFC107; /* Color of the square dots */
+  width: 8px;
+  height: 8px;
+  border-radius: 2px; /* Make them square */
+}
+
+/* Set the positions of the square dots */
+.three-div-image-container:nth-child(2)::before {
+  top: 20px;
+  left: 30px;
+}
+
+.three-div-image-container:nth-child(2)::before {
+  top: 50px;
+  right: 40px;
+}
+
+.three-div-image-container:nth-child(3)::before {
+  bottom: 60px;
+  left: 20px;
+}
+
+/* Add more dots as needed */
+.three-div-image-container::before {
+  content: '';
+  position: absolute;
+  background-color: #FFC107;
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+}
+
+/* Set the positions of additional square dots */
+.three-div-image-container::before:nth-child(1) {
+  top: 60px;
+  left: 40px;
+}
+
+.three-div-image-container::before:nth-child(3) {
+  top: 100px;
+  right: 20px;
+}
+
+.three-div-image-container::before:nth-child(4) {
+  bottom: 80px;
+  right: 60px;
+}
+
+/* Add more positions for additional dots as needed */

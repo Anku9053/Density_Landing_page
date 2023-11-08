@@ -129,3 +129,43 @@
   .backByBest-four-image-per-row-second-container-big-image>img{
     width: 60%;
   }
+
+  .BackedByBest-ceo-div-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    width: 65%;
+  }
+
+  .small-image{
+    width: 40%;
+  }
+
+  .BackedByBest-ceo-div-container-main{
+    width: 100%;
+    display: flex;
+    margin-top: 4rem;
+    justify-content: center;
+
+  }
+
+  .BackedByBest-ceo-div-container-holder>img{
+    width: 70%;
+  }
+
+
+  .BackedByBest-ceo-div-big-para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20.48px;
+    font-weight: 700;
+    text-align: start;
+    color: rgb(255, 255, 255);
+  }
+
+  .BackedByBest-ceo-div-small-para{
+  font-family: "Neurial Grotesk Light", sans-serif;
+  font-size: 12px;
+
+  text-align: start;
+  color: rgb(128, 128, 144);
+  }

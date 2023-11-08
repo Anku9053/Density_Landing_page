@@ -10,6 +10,7 @@ import TradeMorePayLess from '../pages/TradeMorePayLess';
 import ThreeDiv from '../pages/ThreeDiv';
 import Explore from '../pages/Explore';
 import NewFrontiers from '../pages/NewFrontiers';
+import BackedByBest from '../pages/BackedByBest';
 
 const Layout = ({ children }) => {
   return (
@@ -24,6 +25,7 @@ const Layout = ({ children }) => {
       {/* <ThreeDiv/> */}
       <Explore/>
       <NewFrontiers/>
+      <BackedByBest/>
     </div>
   );
 };

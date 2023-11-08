@@ -1,0 +1,171 @@
+.BackedByBest-second-main-half-div-border{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    width: 50%;
+    margin: auto;
+    /* border: 2px solid red; */
+ }
+
+ .BackedByBest-first-main-half-div-border {
+    width: 100%;
+    /* height: 200px; */
+    position: relative;
+  }
+  
+  .BackedByBest-first-main-half-div-border::before,
+  .BackedByBest-first-main-half-div-border::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, transparent , rgba(255, 255, 255, 0.2) 50%, rgba(255, 253, 253, 0.2) 50%, transparent );
+  }
+  
+  .BackedByBest-first-main-half-div-border::before {
+    top: 0;
+  }
+  
+  .BackedByBest-first-main-half-div-border::after {
+    bottom: 0;
+  }
+
+
+  .BackedByBest-main-half-div-first-para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    letter-spacing: -2.1px;
+    background: linear-gradient(0deg,rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 50%, );
+    color: transparent;
+    line-height: 76.88px;
+    text-align: center;
+    /* color: rgb(255, 255, 255); */
+  }
+
+/* Apply a gradient mask to the text */
+.BackedByBest-main-half-div-first-span {
+    text-align: center;
+    font-size: 72px;
+    font-weight: 700;
+    letter-spacing: -2.1px;
+    line-height: 76.88px;
+    text-align: center;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 71.4879%);
+    -webkit-background-clip: text; /* Clip the background to the text */
+    background-clip: text;
+    color: transparent; /* Hide the original text color */
+  }
+  
+
+  .BackedByBest-main-container{
+    margin-top: 7rem;
+  }
+
+
+
+
+  .backByBest-four-image-per-row-main-container{
+    
+    width: 70%;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    height: auto;
+  }
+
+  .backByBest-four-image-per-row-second-container{
+    width:70%;
+
+    margin: auto;
+  }
+
+  .backbybest-image-main-container{
+    width: 100%;
+    display: flex;
+    margin-top: 4rem;
+    justify-content: center;
+
+  }
+
+  .backByBest-four-image-per-row-second-container>img{
+    width: 100%;
+  }
+
+
+  .backByBest-four-image-per-row-second-container-big-image{
+    width:70%;
+    justify-content: center;
+    gap: 80px;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    margin: auto;
+  }
+
+
+  
+  .backByBest-four-image-per-row-main-container-big-div{
+    
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    
+    height: auto;
+  }
+ .backbybest-image-main-container-big-div{
+    width: 65%;
+    display: flex;
+    margin: auto;
+    margin-top: 4rem;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+  }
+
+  .backByBest-four-image-per-row-second-container-big-image>img{
+    width: 60%;
+  }
+
+  .BackedByBest-ceo-div-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    width: 65%;
+  }
+
+  .small-image{
+    width: 40%;
+  }
+
+  .BackedByBest-ceo-div-container-main{
+    width: 100%;
+    display: flex;
+    margin-top: 4rem;
+    justify-content: center;
+
+  }
+
+  .BackedByBest-ceo-div-container-holder>img{
+    width: 70%;
+  }
+
+
+  .BackedByBest-ceo-div-big-para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20.48px;
+    font-weight: 700;
+    text-align: start;
+    color: rgb(255, 255, 255);
+  }
+
+  .BackedByBest-ceo-div-small-para{
+  font-family: "Neurial Grotesk Light", sans-serif;
+  font-size: 12px;
+
+  text-align: start;
+  color: rgb(128, 128, 144);
+  }

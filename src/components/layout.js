@@ -11,6 +11,7 @@ import ThreeDiv from '../pages/ThreeDiv';
 import Explore from '../pages/Explore';
 import NewFrontiers from '../pages/NewFrontiers';
 import BackedByBest from '../pages/BackedByBest';
+import TradeTogether from '../pages/TradeTogether';
 
 const Layout = ({ children }) => {
   return (
@@ -26,6 +27,7 @@ const Layout = ({ children }) => {
       <Explore/>
       <NewFrontiers/>
       <BackedByBest/>
+      <TradeTogether/>
     </div>
   );
 };

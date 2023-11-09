@@ -16,25 +16,28 @@ import Visionaries from '../pages/Visionaries';
 import EarnMoney from '../pages/EarnMoney';
 import Faqpage from '../pages/Faqpage';
 import Faq from '../pages/faq';
+import StartSmall from '../pages/StartSmall';
+import Scroll from '../pages/Scroll';
 
 const Layout = ({ children }) => {
   return (
     <div>
       <main>{children}</main>
-      <Navbar/>
+      {/* <Navbar/>
       <Trade/>
       <ThreeImage/>
       <TradersDesc/>
       <WhyDensity/>
       <TradeMorePayLess/>
-      {/* <ThreeDiv/> */}
       <Explore/>
       <NewFrontiers/>
       <BackedByBest/>
       <TradeTogether/>
-      {/* <Visionaries/> */}
+      <Visionaries/>
       <EarnMoney/>
       <Faq/>
+      <StartSmall/> */}
+      <Scroll/>
     </div>
   );
 };

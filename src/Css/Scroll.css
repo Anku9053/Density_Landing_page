@@ -1,0 +1,50 @@
+/* Scroll.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .image {
+    width: 100%; 
+    object-fit: cover;
+    border-radius: 8px;
+    transition: opacity 0.5s ease;
+  }
+  
+  .content-container {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .content {
+    opacity: 1;
+    text-align: center;
+    color: white;
+  }
+  
+  .image-container.changed {
+    opacity: 1;
+  }
+  
+  .image-container.changed .image,
+  .image-container.changed .content-container {
+    opacity: 1;
+  }
+  

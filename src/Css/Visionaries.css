@@ -24,11 +24,14 @@
     font-size: 72px;
     font-weight: 700;
     letter-spacing: -2.1px;
-    line-height: 76.88px;
+    /* line-height: 76.88px; */
     text-align: center;
     color: rgb(255, 255, 255);
 }
-
+/* .main-width-remover{
+    width: 70%;
+    margin: auto;
+} */
 .Visionaries-main-div-span{
     color: rgb(235, 255, 37);
 }

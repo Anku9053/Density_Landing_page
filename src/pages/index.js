@@ -1,8 +1,8 @@
 // index.js
 import React from 'react';
-import Layout from '../components/layout.js'; // Note the correct case for the import
+import Layout from '../components/layout.js'; 
 
-import HomePage from './Homepage.js'; // Note the correct case for the import
+import HomePage from './Homepage.js';
 
 const IndexPage = () => {
   return (

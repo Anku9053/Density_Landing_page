@@ -18,6 +18,7 @@ const ImageContainerThreeImages = styled.div`
   perspective: 1200px;
 `;
 
+
 const Image = styled.div`
   flex: 1;
   overflow: hidden;

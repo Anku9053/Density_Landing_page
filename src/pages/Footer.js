@@ -99,6 +99,8 @@ const HeadingContent = styled.h1`
   font-size: 8rem;
   margin: 0;
   width: 70%;
+  position:relative;
+  top: 1rem;
   margin: auto;
   background-image: linear-gradient(to top, #302f2f, #ffffff);
   background-clip: text;
@@ -134,14 +136,16 @@ const FooterHeading = styled.h1`
 const FooterRow2 = styled.div`
   display: flex;
   /* padding: 0 10%; */
-  width: 65%;
-
+  width: 80%;
+  /* letter-spacing: 2px; */
   justify-content: space-between;
 `;
 
 const SubHeading = styled.h4`
   color: rgb(255, 255, 255);
   font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  /* word-spacing: 0.5rem; */
   &:hover {
     color: #EBFF25;
     cursor: pointer;
@@ -155,8 +159,11 @@ const FooterRow3 = styled.div`
 
 const FooterPara = styled.p`
   text-align: center;
-  color: rgba(255, 255, 255, 0.822);
-  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  /* word-spacing: 0.3rem; */
+  color: rgba(217, 221, 224, 0.959);
+  font-weight: 0;
 `;
 
 const FooterRow4 = styled.div`

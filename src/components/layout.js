@@ -23,7 +23,7 @@ const Layout = ({ children }) => {
   return (
     <div>
       <main>{children}</main>
-      {/* <Navbar/>
+      <Navbar/>
       <Trade/>
       <ThreeImage/>
       <TradersDesc/>
@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
       <Visionaries/>
       <EarnMoney/>
       <Faq/>
-      <StartSmall/> */}
+      <StartSmall/>
       <Scroll/>
     </div>
   );

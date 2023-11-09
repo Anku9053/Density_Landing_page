@@ -16,13 +16,16 @@ const glow = keyframes`
 const NavLeft = styled.div`
   width: 100%;
   height: 85px;
-  background-color: #08130a;
+  /* background-color: #08130a; */
   flex: none;
   border: 1px rgba(134, 130, 130, 0.1);
   position: fixed;
   left: 0;
   right: 0;
   top: 0;
+  
+  background-color: rgba(8, 19, 10, 0.8); 
+  backdrop-filter: blur(8px);
   opacity: 1;
   width: 100%;
   z-index: 5;

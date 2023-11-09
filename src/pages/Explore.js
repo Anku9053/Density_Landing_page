@@ -1,8 +1,6 @@
-import React from 'react'
-import "../Css/Explore.css"
-import flipflap from "../images/flipflap.png"
+import React from 'react';
 import styled, { keyframes } from 'styled-components';
-
+import flipflapImage from '../images/flipflap.png';
 
 const glow = keyframes`
   0% {
@@ -20,13 +18,76 @@ const glow2 = keyframes`
     100% {
       box-shadow: 0 0 15px rgba(255, 255, 255, 1);
     }
-  
 `;
+
+const GradientDiv = styled.div`
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to bottom, #0e3514 , transparent 30%);
+`;
+
+const ExploreMainDivContainer = styled.div`
+  width: 100%;
+`;
+
+const ExploreParaDivContainer = styled.div`
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  transform: none;
+`;
+
+const ExploreFirstPara = styled.p`
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  letter-spacing: -2.1px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+`;
+
+const ExploreSecondPara = styled.p`
+  position: relative;
+  bottom: 9rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  letter-spacing: -2.1px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+`;
+
+const ExploreFirstSpan = styled.span`
+  color: rgb(235, 255, 37);
+`;
+
+const ExploreFirstSmallPara = styled.p`
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: rgb(231, 231, 234);
+  font-size: 24px;
+  position: relative;
+  bottom: 13rem;
+`;
+
+const ExploreImageDivContainer = styled.div`
+  width: 80%;
+  margin: auto;
+  position: relative;
+  bottom: 11rem;
+  display: flex;
+  justify-content: center;
+`;
+
+const ExploreImage = styled.img`
+  margin: auto;
+`;
+
 const ButtonContainer = styled.div`
   display: flex;
- 
   justify-content: center;
-
 `;
 
 const AnchDivMain = styled.div`
@@ -66,34 +127,33 @@ const AnchP = styled.p`
 `;
 
 const Explore = () => {
-    return (
-        <div className="gradient-div">
-            <div className='explore-main-div-container'>
-                <div className='explore-para-div-container'>
-                    <p className='explore-first-para'>Explore the Markets</p>
-                    <p className='explore-second-para'>like it is your<span className='explore-first-span'> Playground.</span></p>
-                    <p className='explore-first-small-para'>Search for your favorite coins and stay ahead of the market</p>
-                </div>
+  return (
+    <GradientDiv>
+      <ExploreMainDivContainer>
+        <ExploreParaDivContainer>
+          <ExploreFirstPara>Explore the Markets</ExploreFirstPara>
+          <ExploreSecondPara>
+            like it is your<ExploreFirstSpan> Playground.</ExploreFirstSpan>
+          </ExploreSecondPara>
+          <ExploreFirstSmallPara>Search for your favorite coins and stay ahead of the market</ExploreFirstSmallPara>
+        </ExploreParaDivContainer>
 
+        <ExploreImageDivContainer>
+          <ExploreImage src={flipflapImage} alt='' />
+        </ExploreImageDivContainer>
 
-                <div className='explore-image-div-container'>
-                    <img className='explore-image' src={flipflap} alt=''/>
+        <ButtonContainer>
+          <AnchDivMain>
+            <AnchButton href="#">
+              <div className="after-anch">
+                <AnchP>Explore Markets</AnchP>
+              </div>
+            </AnchButton>
+          </AnchDivMain>
+        </ButtonContainer>
+      </ExploreMainDivContainer>
+    </GradientDiv>
+  );
+};
 
-                </div>
-
-                <ButtonContainer>
-                            <AnchDivMain>
-                                <AnchButton href="#">
-                                    <div className="after-anch">
-                                        <AnchP>Explore Markets</AnchP>
-                                    </div>
-                                </AnchButton>
-                            </AnchDivMain>
-                        </ButtonContainer>
-
-            </div>
-        </div>
-    )
-}
-
-export default Explore
+export default Explore;

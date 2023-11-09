@@ -54,13 +54,18 @@
  }
 
  .explore-image-div-container{
-    width:73%;
+   /* border:2px solid red; */
+    width:80%;
     margin: auto;
     position: relative;
     bottom: 11rem;
-
+    display: flex;
+    justify-content: center;
  }
 
 .explore-main-div-container{
     width: 100%;
+}
+.explore-image{
+   margin: auto;
 }

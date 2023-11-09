@@ -1,7 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react';
 import styled, { keyframes } from 'styled-components';
 import coinchange from "../images/coinchange.png";
-
+import one from "../images/one-twent-five.webp"
+import rupee from "../images/rupee.webp"
+import safety from "../images/Secure.webp"
+import amount from "../images/Amount.webp"
+import nextup from "../images/NextUp.webp"
+import matc from "../images/Matic.webp"
 const glow = keyframes`
   0% {
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
@@ -21,7 +26,8 @@ const Container = styled.div`
 `;
 
 const ImageContainer = styled.div`
-  width: 100%;
+  width: 80%;
+  margin: auto;
   display: flex;
   flex-direction: row;
   overflow: hidden;
@@ -44,8 +50,9 @@ const ContentContainer = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  justify-content: flex-start;
+  margin-left: 10rem;
   opacity: 0;
   transition: opacity 0.5s ease;
 
@@ -56,8 +63,8 @@ const ContentContainer = styled.div`
 
 const Content = styled.p`
   opacity: 1;
-  text-align: center;
-  font-family: "Neurial Grotesk", sans-serif;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 40px;
   font-weight: 500;
   color: rgb(255, 255, 255);
@@ -68,7 +75,7 @@ const FirstImageOfScroll = styled.img`
 `;
 
 const SmallP = styled.p`
-  font-family: "Neurial Grotesk", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
   line-height: 32px;
   position: relative;
@@ -113,7 +120,7 @@ const AnchP = styled.p`
   font-weight: 700;
 `;
 
-const Scroll = () => {
+const Scroll_first = () => {
   const [visibleIndex, setVisibleIndex] = useState(0);
   const containerRef = useRef(null);
 
@@ -148,24 +155,16 @@ const Scroll = () => {
         <div>
           <Image
             className="image"
-            src="https://framerusercontent.com/images/JOp5o95H8N6rcRdm2ihCJpcoawc.png?scale-down-to=1024"
+            src={matc}
             alt="Image 1"
           />
         </div>
         <ContentContainer className={`content-container ${visibleIndex === 0 ? 'changed' : ''}`}>
-          <FirstImageOfScroll src='https://framerusercontent.com/images/Eirp07s7Wsvd04ENgTUIQE6RGkc.png' />
-          <Content>Create an Account</Content>
-          <SmallP>Register & Complete your</SmallP>
-          <SmallP>Verification in less than 2 minutes</SmallP>
-          <ButtonContainer>
-            <AnchDivMain>
-              <AnchButton href="#">
-                <div className="after-anch">
-                  <AnchP>Trade Now</AnchP>
-                </div>
-              </AnchButton>
-            </AnchDivMain>
-          </ButtonContainer>
+          <FirstImageOfScroll src={one} />
+          <Content>125x your Leverage.</Content>
+          <SmallP>Maximize Your Trading Potential with upto <br/> 125x Leverage. Always ensure you use </SmallP>
+          <SmallP>leverage with proper risk management.</SmallP>
+          
         </ContentContainer>
       </ImageContainer>
 
@@ -173,24 +172,16 @@ const Scroll = () => {
         <div>
           <Image
             className="image"
-            src="https://framerusercontent.com/images/j11NwUrp3bk9vGxAZEp1xEsSGrk.png?scale-down-to=1024"
+            src={amount}
             alt="Image 2"
           />
         </div>
         <ContentContainer className={`content-container ${visibleIndex === 1 ? 'changed' : ''}`}>
-          <FirstImageOfScroll src={coinchange} />
-          <Content>Deposit Funds</Content>
-          <SmallP>Add funds quickly using a variety of</SmallP>
-          <SmallP>payment methods</SmallP>
-          <ButtonContainer>
-            <AnchDivMain>
-              <AnchButton href="#">
-                <div className="after-anch">
-                  <AnchP>Trade Now</AnchP>
-                </div>
-              </AnchButton>
-            </AnchDivMain>
-          </ButtonContainer>
+          <FirstImageOfScroll src={rupee} />
+          <Content>Deposit Funds in INR.</Content>
+          <SmallP>Deposit Funds in INR seamlessly and start </SmallP>
+          <SmallP>your crypto futures journey within  5 minutes</SmallP>
+          
         </ContentContainer>
       </ImageContainer>
 
@@ -198,28 +189,20 @@ const Scroll = () => {
         <div>
           <Image
             className="image"
-            src="https://framerusercontent.com/images/yT2IeAMzpz2zotDCFRXIz6bngLA.png?scale-down-to=1024"
+            src={nextup}
             alt="Image 3"
           />
         </div>
         <ContentContainer className={`content-container ${visibleIndex === 2 ? 'changed' : ''}`}>
-          <FirstImageOfScroll src='https://framerusercontent.com/images/MuGoyAYXtzuANxB4L6sjutODqss.png' />
-          <Content>Become a Trader</Content>
-          <SmallP>Choose Your Trading Pair & Trade</SmallP>
-          <SmallP>Seamlessly</SmallP>
-          <ButtonContainer>
-            <AnchDivMain>
-              <AnchButton href="#">
-                <div className="after-anch">
-                  <AnchP>Trade Now</AnchP>
-                </div>
-              </AnchButton>
-            </AnchDivMain>
-          </ButtonContainer>
+          <FirstImageOfScroll src={safety} />
+          <Content>Safety First, Security Always.</Content>
+          <SmallP>Density uses 256 SHA encryption </SmallP>
+          <SmallP>& backed by leading KYC and AML analytics  providers like Chainanalysis and Onfido.</SmallP>
+          
         </ContentContainer>
       </ImageContainer>
     </Container>
   );
 };
 
-export default Scroll;
+export default Scroll_first;

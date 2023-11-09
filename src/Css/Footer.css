@@ -1,0 +1,106 @@
+/* content */
+.content {
+    background-color: black;
+}
+
+.content .heading {
+    display: flex;
+    justify-content: center;
+}
+
+.content .wrap-mobile {
+    margin: auto;
+    position: relative;
+    bottom: 2.5rem;
+    background-color: black;
+    width: 40%;
+    height: 1000px;
+    border: 0px solid #1e7c80;
+    border-radius: 70px;
+    box-shadow: inset 0px 0px 8px 0px #1e7c80;
+    display: flex;
+    justify-content: center;
+}
+.content .wrap-mobile .mobile-logo{
+    justify-content: center;
+}
+.content .wrap-mobile .mobile-logo .image1 {
+    position: relative;
+    left: 6rem;
+    width: 50%;
+    padding-top: 8rem;
+    margin: auto;
+}
+.content .wrap-mobile .mobile-logo .image2 {
+    
+    padding-top: 8rem;
+}
+
+.content .heading .heading-content {
+    font-size: 8rem;
+    margin: 0;
+    background-image: linear-gradient(to top, #302f2f, #ffffff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* content */
+
+/* footer */
+.wrap-footer .footer {
+    background-color: #229751;
+}
+
+.wrap-footer .footer .row1 {
+    display: flex;
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    justify-content: center;
+}
+
+.wrap-footer .footer .row1 .footer-heading {
+    width: 10%;
+    color: aliceblue;
+}
+
+.wrap-footer .footer .row2 {
+    display: flex;
+    padding: 0 10%;
+    justify-content: space-between;
+}
+
+.wrap-footer .footer .row2 .heading-content {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+.wrap-footer .footer .row3 {
+    display: flex;
+    padding: 0 20%;
+}
+
+.wrap-footer .footer .row3 .footer-para {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.822);
+    font-weight: 400;
+}
+
+.wrap-footer .footer .row4 {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.wrap-footer .footer .row4 .inner-row4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 8%;
+}
+
+.wrap-footer .footer .row4 .inner-row4 .footer-logo {
+    color: aliceblue;
+    font-size: xx-large;
+}

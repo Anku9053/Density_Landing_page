@@ -1,25 +1,76 @@
 import React from 'react';
-import "../Css/ThreeImage.css"; // Replace with your CSS file path
-import firsttradeImage from"../images/firsttradeImage.webp"
-import secondtradeimage from "../images/secondtradeimage.webp"
-import thirdtradeimage from "../images/thirdtradeimage.webp"
+import styled from 'styled-components';
+import firsttradeImage from "../images/firsttradeImage.webp";
+import secondtradeimage from "../images/secondtradeimage.webp";
+import thirdtradeimage from "../images/thirdtradeimage.webp";
+
+const MainDivContainer = styled.div`
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+`;
+
+const ImageContainerThreeImages = styled.div`
+  display: flex;
+  width: 60%;
+  perspective: 1200px;
+`;
+
+const Image = styled.div`
+  flex: 1;
+  overflow: hidden;
+  background-color: black;
+  transform-style: preserve-3d;
+`;
+
+const FirstImage = styled.div`
+  width: 100%;
+  position: relative;
+  left: 40px;
+  /* border-radius: 90px; */
+  transform: scale(0.8);
+`;
+
+const SecondImage = styled.div`
+  border-radius: 40px;
+  width: 100%;
+  transform: translateZ(0);
+`;
+
+const ThirdImage = styled.div`
+  border-radius: 40px;
+  width: 100%;
+  transform: scale(0.8);
+  position: relative;
+  right: 40px;
+  z-index: -1;
+`;
+
+const StyledImg = styled.img`
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+`;
+
 const ThreeImage = () => {
   return (
-    <div className="main-div-container">
-      <div className="image-container-three-images">
-        <div className="image first-image">
-          <img className='images-glow' src={firsttradeImage} alt="First Image" />
-        </div>
+    <MainDivContainer>
+      <ImageContainerThreeImages>
+        <Image as={FirstImage}>
+          <StyledImg className='images-glow' src={firsttradeImage} alt="First Image" />
+        </Image>
 
-        <div className="image second-image">
-          <img className='images-glow' src={secondtradeimage} alt="Second Image" />
-        </div>
+        <Image as={SecondImage}>
+          <StyledImg className='images-glow' src={secondtradeimage} alt="Second Image" />
+        </Image>
 
-        <div className="image third-image">
-          <img className='images-glow' src={thirdtradeimage} alt="Third Image" />
-        </div>
-      </div>
-    </div>
+        <Image as={ThirdImage}>
+          <StyledImg className='images-glow' src={thirdtradeimage} alt="Third Image" />
+        </Image>
+      </ImageContainerThreeImages>
+    </MainDivContainer>
   );
 };
 

@@ -18,26 +18,28 @@ import Faqpage from '../pages/Faqpage';
 import Faq from '../pages/faq';
 import StartSmall from '../pages/StartSmall';
 import Scroll from '../pages/Scroll';
+import Footer from '../pages/Footer';
 
 const Layout = ({ children }) => {
   return (
     <div>
       <main>{children}</main>
-      <Navbar/>
-      <Trade/>
-      <ThreeImage/>
-      <TradersDesc/>
-      <WhyDensity/>
-      <TradeMorePayLess/>
-      <Explore/>
-      <NewFrontiers/>
-      <BackedByBest/>
+      <Navbar/> 
+      <Trade/> 
+      <ThreeImage />
+      <TradersDesc />
+      <WhyDensity />
+      <TradeMorePayLess />
+      <Explore />
+      <NewFrontiers />
+      <BackedByBest/> 
       <TradeTogether/>
-      <Visionaries/>
+      <Visionaries />
       <EarnMoney/>
       <Faq/>
       <StartSmall/>
       <Scroll/>
+      <Footer/>
     </div>
   );
 };

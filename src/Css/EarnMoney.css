@@ -14,11 +14,13 @@
 }
 
 .EarnMoney-main-div-image-holder{
-    width: 37%;
+    width: 50%;
     margin: auto;
 }
 
-
+.EarnMoney-main-div-image{
+    width: 60%;
+}
 .EarnMoney-third-main-div{
     width: 100%;
     color: white;

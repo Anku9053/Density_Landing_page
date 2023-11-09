@@ -12,6 +12,10 @@ import Explore from '../pages/Explore';
 import NewFrontiers from '../pages/NewFrontiers';
 import BackedByBest from '../pages/BackedByBest';
 import TradeTogether from '../pages/TradeTogether';
+import Visionaries from '../pages/Visionaries';
+import EarnMoney from '../pages/EarnMoney';
+import Faqpage from '../pages/Faqpage';
+import Faq from '../pages/faq';
 
 const Layout = ({ children }) => {
   return (
@@ -28,6 +32,9 @@ const Layout = ({ children }) => {
       <NewFrontiers/>
       <BackedByBest/>
       <TradeTogether/>
+      {/* <Visionaries/> */}
+      <EarnMoney/>
+      <Faq/>
     </div>
   );
 };

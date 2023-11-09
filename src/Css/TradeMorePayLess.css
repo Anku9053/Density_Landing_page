@@ -44,3 +44,14 @@
     color: rgb(231, 231, 234);
     font-size: 24px;
 }
+
+.trade-more-first-main-div-image-container{
+    width: 75%;
+    margin: auto;
+}
+.trade-more-first-main-div-para{
+    font-family: "Neurial Grotesk", sans-serif;
+    line-height: 32.85px;
+    text-align: center;
+    color: rgb(125, 125, 125);
+}

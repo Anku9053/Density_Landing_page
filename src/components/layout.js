@@ -11,6 +11,13 @@ import ThreeDiv from '../pages/ThreeDiv';
 import Explore from '../pages/Explore';
 import NewFrontiers from '../pages/NewFrontiers';
 import BackedByBest from '../pages/BackedByBest';
+import TradeTogether from '../pages/TradeTogether';
+import Visionaries from '../pages/Visionaries';
+import EarnMoney from '../pages/EarnMoney';
+import Faqpage from '../pages/Faqpage';
+import Faq from '../pages/faq';
+import StartSmall from '../pages/StartSmall';
+import Scroll from '../pages/Scroll';
 
 const Layout = ({ children }) => {
   return (
@@ -22,10 +29,15 @@ const Layout = ({ children }) => {
       <TradersDesc/>
       <WhyDensity/>
       <TradeMorePayLess/>
-      {/* <ThreeDiv/> */}
       <Explore/>
       <NewFrontiers/>
       <BackedByBest/>
+      <TradeTogether/>
+      <Visionaries/>
+      <EarnMoney/>
+      <Faq/>
+      <StartSmall/>
+      <Scroll/>
     </div>
   );
 };

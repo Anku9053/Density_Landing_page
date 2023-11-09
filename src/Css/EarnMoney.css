@@ -1,0 +1,64 @@
+.EarnMoney-main-div{
+    width: 100%;
+    margin-top: 10rem;
+
+}
+
+
+
+
+.EarnMoney-second-main-div{
+    width: 50%;
+    margin: auto;
+    /* border: 2px solid red; */
+}
+
+.EarnMoney-main-div-image-holder{
+    width: 37%;
+    margin: auto;
+}
+
+
+.EarnMoney-third-main-div{
+    width: 100%;
+    color: white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.EarnMoney-third-main-div-span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    letter-spacing: -2.1px;
+    /* line-height: 76.88px; */
+    text-align: center;
+    color: rgb(235, 255, 37);
+}
+
+.EarnMoney-third-main-div-para{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    letter-spacing: -2.1px;
+    /* line-height: 76.88px; */
+    text-align: center;
+}
+
+.EarnMoney-third-main-div-small-para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: rgb(231, 231, 234);
+    position: relative;
+    bottom: 2rem;
+}
+
+.EarnMoney-fourth-main-div{
+    width: 75%;
+    /* border: 2px solid red; */
+    margin: auto;
+}

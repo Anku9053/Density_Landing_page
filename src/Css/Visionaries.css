@@ -1,0 +1,138 @@
+.Visionaries-main-div{
+    width: 100%;
+    margin-top: 13rem;
+    /* border: 2px solid red; */
+
+}
+
+.Visionaries-main-div-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    /* border: 2px  solid white; */
+}
+
+.Visionaries-main-div-para-holder{
+    text-align: center;
+    color: white;
+
+}
+
+.Visionaries-main-div-para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    letter-spacing: -2.1px;
+    /* line-height: 76.88px; */
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+/* .main-width-remover{
+    width: 70%;
+    margin: auto;
+} */
+.Visionaries-main-div-span{
+    color: rgb(235, 255, 37);
+}
+
+.Visionaries-main-div-small-para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    position: relative;
+    bottom: 4rem;
+    letter-spacing: -2.1px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+.Visionaries-second-main-div{
+    width: 70%;
+    margin: auto;
+    /* border: 2px solid red; */
+}
+
+.Visionaries-second-main-three-div-holder{
+    display: flex;
+    justify-content: center;
+    background: url("https://framerusercontent.com/images/rUzTpc0OSjilsPSvEn7WYwEuBA.png?scale-down-to=512");
+
+    width: 100%;
+    /* border: 2px solid white; */
+    margin: auto;
+    image-rendering: pixelated;
+    flex-shrink: 0;
+    fill: rgba(0,0,0,1);
+    color: rgba(0,0,0,1)
+}
+
+.Visionaries-div-background-image-holder{
+    background-image: url("https://framerusercontent.com/images/rUzTpc0OSjilsPSvEn7WYwEuBA.png?scale-down-to=512");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Visonaries-div-span-image-linkedin{
+    /* border: 2px solid red; */
+    color: #bbbbc3;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 3rem;
+    align-items:last baseline;
+    align-content: end;
+    position: relative;
+    top: 11.8rem;
+}
+
+/* .shortimage{
+
+    width: 100%;
+    position: relative;
+    bottom: 30px;
+}
+
+.shortimage-2{
+
+    width: 100%;
+    position: relative;
+    bottom: 10px;
+} */
+
+.Visionaries-div-big-para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.Visionaries-div-para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: -1px;
+    position: relative;
+    bottom: 3rem;
+    /* line-height: 40px;/ */
+    color: rgb(187, 187, 195);
+}
+
+
+.Visonaries-div-span-para-holder{
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+    width: 60%;
+}
+
+.Visionaries-div-background-image-holder>div>img{
+    border: 2px solid red;
+    width: 100%;
+}

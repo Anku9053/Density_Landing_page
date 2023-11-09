@@ -57,6 +57,7 @@ const AnchP = styled.p`
 
 const FooterContent = styled.div`
   background-color: black;
+  padding-top: 8rem;
 `;
 
 // const FooterHeading = styled.h1`

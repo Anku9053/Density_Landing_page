@@ -31,6 +31,7 @@ const TradeTogetherBigPara = styled.p`
   font-weight: 700;
   letter-spacing: -2.1px;
   line-height: 76.88px;
+  padding-top: 8rem;
   text-align: center;
   color: rgb(255, 255, 255);
 `;

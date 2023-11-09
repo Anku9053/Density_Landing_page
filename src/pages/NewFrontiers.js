@@ -167,7 +167,7 @@ const NewFrontiers = () => {
   };
 
   const handleMouseLeave = () => {
-    setIsPlaying(false);
+    setIsPlaying(true);
   };
 
   return (
@@ -215,7 +215,8 @@ const NewFrontiers = () => {
               width={'100%'}
               height={'auto'}
               ref={videoRef}
-              onMouseLeave={() => videoRef.current.pause()}
+              // onMouseLeave={() => videoRef.current.pause()}
+              onMouseEnter={handleMouseEnter}
             >
               <source src={DestinyVideo} type="video/mp4" />
               Your browser does not support the video tag.
@@ -232,6 +233,7 @@ const NewFrontiers = () => {
               <source src={DestinyVideo} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
+            
           )}
         </NewFrontiersMainVideoContainer>
       </NewFrontiersMainContainer>

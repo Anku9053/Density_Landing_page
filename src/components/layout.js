@@ -19,6 +19,7 @@ import Faq from '../pages/faq';
 import StartSmall from '../pages/StartSmall';
 import Scroll from '../pages/Scroll';
 import Footer from '../pages/Footer';
+import Scroll_first from '../pages/Scroll_first';
 
 const Layout = ({ children }) => {
   return (
@@ -29,16 +30,17 @@ const Layout = ({ children }) => {
       <ThreeImage />
       <TradersDesc />
       <WhyDensity />
+      <Scroll_first/>
       <TradeMorePayLess />
       <Explore />
       <NewFrontiers />
-      <BackedByBest/> 
-      <TradeTogether/>
-      <Visionaries />
-      <EarnMoney/>
-      <Faq/>
       <StartSmall/>
       <Scroll/>
+      <BackedByBest/> 
+      <EarnMoney/>
+      <TradeTogether/>
+      <Visionaries />
+      <Faq/>
       <Footer/>
     </div>
   );

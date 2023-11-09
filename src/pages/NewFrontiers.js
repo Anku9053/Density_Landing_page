@@ -23,6 +23,7 @@ const glow2 = keyframes`
 const ButtonContainer = styled.div`
   display: flex;
   justify-content: center;
+  padding-bottom: 8rem;
 `;
 
 const AnchDivMain = styled.div`

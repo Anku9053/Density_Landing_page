@@ -84,7 +84,7 @@ const MobileLogo = styled.div`
 
 const MobileLogo1 = styled.div`
   position: relative;
-  left: 6rem;
+  /* left: rem; */
   width: 50%;
   padding-top: 8rem;
   margin: auto;
@@ -171,6 +171,10 @@ const InnerRow4 = styled.div`
   align-items: center;
   width: 100%;
   font-size: 3rem;
+
+  &:hover{
+    cursor: pointer;
+  }
   /* margin-left: 20px; */
 `;
 

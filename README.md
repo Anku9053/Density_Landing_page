@@ -25,6 +25,9 @@ This project has been a fantastic learning experience, and I'm excited to share 
 
 ## Preview 🖼️
 
-![Landing Page Preview](https://github.com/Anku9053/Density_Landing_page/assets/112754506/f97aeebe-fb6f-49b9-b41a-539758ce3f13)
+![Landing Page Preview 1](https://github.com/Anku9053/Density_Landing_page/assets/112754506/f97aeebe-fb6f-49b9-b41a-539758ce3f13)
+![Landing Page Preview 2](https://github.com/Anku9053/Density_Landing_page/assets/112754506/cb83cf25-d068-4c7e-965d-c40278f69231)
+![Landing Page Preview 3](https://github.com/Anku9053/Density_Landing_page/assets/112754506/9719f9e0-a5b2-4536-b2f1-34dc1b2b5990)
+![Landing Page Preview 4](https://github.com/Anku9053/Density_Landing_page/assets/112754506/c00edfd6-ff15-4e94-bcaf-711ab6db037c)
 
-Replace `url_to_screenshot_or_image` with the actual URL or path to the screenshot or image of your landing page. Including a preview image can make your README more visually appealing.
+## 🚀✨ Thank you for exploring our Density Landing Page! We appreciate your interest and hope you enjoy the experience. 🚀✨

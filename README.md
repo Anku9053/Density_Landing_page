@@ -25,6 +25,6 @@ This project has been a fantastic learning experience, and I'm excited to share 
 
 ## Preview 🖼️
 
-![Landing Page Preview](url_to_screenshot_or_image)
+![Landing Page Preview](https://github.com/Anku9053/Density_Landing_page/assets/112754506/f97aeebe-fb6f-49b9-b41a-539758ce3f13)
 
 Replace `url_to_screenshot_or_image` with the actual URL or path to the screenshot or image of your landing page. Including a preview image can make your README more visually appealing.

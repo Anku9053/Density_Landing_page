@@ -30,4 +30,4 @@ This project has been a fantastic learning experience, and I'm excited to share 
 ![Landing Page Preview 3](https://github.com/Anku9053/Density_Landing_page/assets/112754506/9719f9e0-a5b2-4536-b2f1-34dc1b2b5990)
 ![Landing Page Preview 4](https://github.com/Anku9053/Density_Landing_page/assets/112754506/c00edfd6-ff15-4e94-bcaf-711ab6db037c)
 
-## 🚀✨ Thank you for exploring our Density Landing Page! We appreciate your interest and hope you enjoy the experience. 🚀✨
+## 🚀✨ Thank you for exploring our Density Landing Page! I appreciate your interest and hope you enjoy the experience. 🚀✨
